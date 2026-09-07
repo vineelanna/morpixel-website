@@ -11,3 +11,9 @@ Static GitHub Pages site for `morpixel.in`.
 - Peacock appears only in the MORPIXEL logo / favicon.
 - Current smart product working name: **WALLGENDA**.
 - WALLGENDA is presented as **In Development**.
+
+
+## Latest refinements
+- Upright, elegant standalone peacock line-art logo
+- Peacock appears only inside the MORPIXEL brand mark
+- Sticky glass-effect navigation header while scrolling
