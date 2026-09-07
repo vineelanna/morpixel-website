@@ -1,77 +1,233 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MORPIXEL DESIGNLAB | Digital Manufacturing & Intelligent Products</title>
-<meta name="description" content="MORPIXEL DESIGNLAB combines digital design, fabrication, personalization and intelligent technology to create meaningful physical products."/>
-<link rel="icon" href="assets/favicon.svg" type="image/svg+xml"/>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080b11">
+<title>MORPIXEL DESIGNLAB | Design × Fabrication × Intelligence</title>
+<meta name="description" content="MORPIXEL DESIGNLAB combines digital design, fabrication, personalization and intelligent technology to create meaningful physical products.">
+<link rel="icon" href="assets/morpixel-logo.png">
 <style>
-:root{--bg:#090b10;--bg2:#0f1219;--text:#f5f7fb;--muted:#a8b0be;--line:#222834;--cyan:#27c8ff;--violet:#8c67ff;--warm:#ff9d64;--gold:#e3bd8a}
-*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:96px}body{margin:0;background:radial-gradient(900px 500px at 82% 9%,rgba(108,79,255,.14),transparent 60%),radial-gradient(700px 450px at 76% 35%,rgba(35,198,255,.08),transparent 65%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:auto;padding:0 28px}.site-header{position:sticky;top:0;z-index:1000;background:rgba(9,11,16,.78);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.055);box-shadow:0 10px 34px rgba(0,0,0,.14)}.nav{height:86px;display:flex;align-items:center;justify-content:space-between}.logo{width:255px;max-width:48vw;display:block}.links{display:flex;gap:28px;align-items:center;color:#d6dbe5;font-size:14px}.talk{padding:12px 18px;border:1px solid #3a4353;border-radius:999px}.hero{min-height:690px;display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:center}.eyebrow{font-size:12px;letter-spacing:.24em;color:#c9cfda;text-transform:uppercase}.hero h1{font-size:70px;line-height:1.02;letter-spacing:-.045em;margin:25px 0 22px;max-width:650px}.grad{background:linear-gradient(90deg,#ff8a5c,#d36cf5,#3ebcff);-webkit-background-clip:text;color:transparent}.lead{color:#bac2cf;font-size:20px;line-height:1.6;max-width:650px}.actions{display:flex;gap:14px;margin:34px 0}.btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 20px;border-radius:999px;border:1px solid #354052;font-weight:700;font-size:14px}.btn.primary{border:0;background:linear-gradient(90deg,#ff8a5c,#b466f5,#35bdf4)}.chips{display:flex;gap:10px;flex-wrap:wrap}.chip{border:1px solid #252b36;border-radius:999px;padding:9px 12px;color:#b8c0cc;font-size:12px}.product-card{position:relative;padding:30px;border:1px solid #333a48;border-radius:28px;background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.018));box-shadow:0 30px 80px rgba(0,0,0,.28);overflow:hidden}.product-card:before{content:"";position:absolute;width:330px;height:330px;background:radial-gradient(circle,rgba(127,84,255,.23),transparent 67%);top:-130px;right:-110px}.screen{position:relative;border:10px solid #1d222b;border-radius:20px;background:linear-gradient(150deg,#101621,#090d14);min-height:360px;padding:30px;box-shadow:inset 0 0 0 1px #303949}.screen .time{font-size:54px;font-weight:800}.screen small{color:#909aa9;letter-spacing:.12em}.rule{height:1px;background:#2b3340;margin:24px 0}.agenda{display:grid;gap:16px;color:#ccd2dd}.agenda span{color:#fff;font-weight:700;margin-right:14px}.status{margin-top:28px;color:#59d9ef;font-size:13px}.quote{margin-top:28px;color:#9da6b5;font-style:italic}.mini-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px}.mini{border:1px solid #303846;border-radius:13px;padding:14px;color:#bcc4d0;font-size:12px}.mini b{display:block;color:#fff;margin-top:7px}.section{padding:105px 0;border-top:1px solid rgba(255,255,255,.06)}.kicker{color:var(--gold);letter-spacing:.2em;text-transform:uppercase;font-size:12px}.section h2{font-size:48px;line-height:1.1;letter-spacing:-.03em;margin:18px 0}.copy{font-size:18px;line-height:1.7;color:#aeb7c4;max-width:760px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:42px}.card{background:#0f131a;border:1px solid #222936;border-radius:20px;padding:28px;min-height:210px}.num{color:#687384;font-size:12px}.card h3{font-size:21px;margin:33px 0 12px}.card p{color:#9fa9b7;line-height:1.6}.process{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:44px}.step{border-top:1px solid #38404c;padding-top:18px}.step strong{display:block;margin:8px 0}.step p{font-size:13px;color:#929dab;line-height:1.6}.wallgenda{display:grid;grid-template-columns:.9fr 1.1fr;gap:60px;align-items:center}.badge{display:inline-block;padding:7px 11px;border-radius:999px;border:1px solid #614d82;color:#d7baff;font-size:11px;letter-spacing:.12em;text-transform:uppercase}.features{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:28px}.feature{padding:18px;border:1px solid #252d38;border-radius:14px;color:#bbc4d1}.footer{padding:56px 0 34px;border-top:1px solid #1d232d}.footer-row{display:flex;justify-content:space-between;gap:30px;align-items:center}.legal{color:#7e8999;font-size:12px;line-height:1.7}.footer .logo{width:225px}
-/* --- MORPIXEL motion system --- */
-body:before,body:after{content:"";position:fixed;pointer-events:none;z-index:-1;border-radius:50%;filter:blur(70px);opacity:.34}
-body:before{width:420px;height:420px;right:-120px;top:15vh;background:linear-gradient(135deg,#7b4dff,#1dd6ff);animation:orbA 12s ease-in-out infinite alternate}
-body:after{width:360px;height:360px;left:-160px;bottom:4vh;background:linear-gradient(135deg,#ff7a59,#d25eff);animation:orbB 15s ease-in-out infinite alternate}
-@keyframes orbA{to{transform:translate(-120px,90px) scale(1.16) rotate(20deg)}}
-@keyframes orbB{to{transform:translate(150px,-90px) scale(.92) rotate(-15deg)}}
-.site-header{transition:background .35s ease,box-shadow .35s ease,border-color .35s ease}
-.site-header.scrolled{background:rgba(7,9,14,.92);box-shadow:0 18px 55px rgba(0,0,0,.36);border-color:rgba(255,255,255,.08)}
-.links a{position:relative;transition:color .25s ease}
-.links a:not(.talk):after{content:"";position:absolute;left:0;bottom:-8px;width:0;height:1px;background:linear-gradient(90deg,#ff8a5c,#c96df2,#35bdf4);transition:width .25s ease}
-.links a:not(.talk):hover:after{width:100%}.links a:hover{color:#fff}
-.talk,.btn,.chip,.card,.feature,.mini{transition:transform .28s ease,border-color .28s ease,background .28s ease,box-shadow .28s ease}
-.talk:hover,.btn:hover{transform:translateY(-2px);border-color:#707d94;box-shadow:0 12px 30px rgba(0,0,0,.25)}
-.btn.primary{background-size:200% 100%;animation:ctaFlow 5s ease infinite}
-@keyframes ctaFlow{0%,100%{background-position:0 50%}50%{background-position:100% 50%}}
-.grad{background-size:200% auto;animation:gradientText 5s ease infinite}
-@keyframes gradientText{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
-.hero{position:relative}
-.product-card{transform-style:preserve-3d;will-change:transform;transition:transform .18s ease-out,box-shadow .3s ease}
-.product-card:after{content:"";position:absolute;inset:-1px;border-radius:28px;padding:1px;background:linear-gradient(130deg,transparent 15%,rgba(65,201,255,.4),rgba(205,100,245,.35),transparent 75%);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;opacity:.55;pointer-events:none}
-.screen{animation:screenBreath 6s ease-in-out infinite alternate}
-@keyframes screenBreath{to{box-shadow:inset 0 0 0 1px #3a485b,0 0 34px rgba(55,173,255,.07)}}
-.card:hover,.feature:hover,.mini:hover{transform:translateY(-6px);border-color:#4a5668;background:#111720;box-shadow:0 18px 40px rgba(0,0,0,.2)}
-.chip:hover{transform:translateY(-2px);border-color:#515c70;color:#fff}
-.reveal{opacity:0;transform:translateY(28px);transition:opacity .75s ease,transform .75s cubic-bezier(.2,.7,.2,1)}
+:root{
+  --bg:#080b11;--bg2:#0c1119;--panel:#101722;--panel2:#0d131d;
+  --text:#f5f7fb;--muted:#aeb8c8;--line:#263142;--gold:#e8bb79;
+  --orange:#ff805f;--pink:#d868ef;--blue:#39bdf7;--cyan:#42d6ee;
+  --max:1240px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:96px}
+body{margin:0;background:
+ radial-gradient(circle at 78% 15%,rgba(113,69,255,.12),transparent 27%),
+ radial-gradient(circle at 18% 45%,rgba(38,194,232,.08),transparent 24%),
+ var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(var(--max),calc(100% - 48px));margin:auto}
+.site-header{position:sticky;top:0;z-index:100;background:rgba(8,11,17,.76);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.06);transition:.3s}
+.site-header.scrolled{background:rgba(8,11,17,.94);box-shadow:0 18px 50px rgba(0,0,0,.28)}
+.nav{height:96px;display:flex;align-items:center;justify-content:space-between;gap:32px}
+.logo{width:270px;height:76px;object-fit:contain;object-position:left center;display:block}
+.links{display:flex;align-items:center;gap:34px;font-weight:650;font-size:14px;color:#d9dee8}
+.links a{position:relative}
+.links a:not(.talk):after{content:"";position:absolute;left:0;bottom:-9px;width:0;height:1px;background:linear-gradient(90deg,var(--orange),var(--pink),var(--blue));transition:.25s}
+.links a:hover:after{width:100%}
+.talk{border:1px solid #3a4658;border-radius:999px;padding:13px 21px;transition:.25s}
+.talk:hover{transform:translateY(-2px);border-color:#71809a}
+.menu{display:none;background:none;border:0;color:white;font-size:27px}
+.hero{min-height:760px;display:grid;grid-template-columns:1.02fr .98fr;gap:76px;align-items:center;padding:72px 0 96px}
+.eyebrow{font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:#cbd3df;font-weight:700}
+h1{font-size:clamp(56px,6vw,88px);line-height:.94;letter-spacing:-.055em;margin:30px 0 28px;max-width:720px}
+.grad{background:linear-gradient(90deg,var(--orange),var(--pink),#9b67ff,var(--blue));background-size:200% auto;-webkit-background-clip:text;background-clip:text;color:transparent;animation:flow 5s ease infinite}
+@keyframes flow{50%{background-position:100% 50%}}
+.lead{font-size:19px;line-height:1.65;color:var(--muted);max-width:690px}
+.actions{display:flex;gap:14px;margin:36px 0 30px;flex-wrap:wrap}
+.btn{padding:15px 22px;border:1px solid #354156;border-radius:999px;font-weight:750;transition:.25s}
+.btn:hover{transform:translateY(-3px)}
+.btn.primary{border:0;background:linear-gradient(90deg,var(--orange),var(--pink),var(--blue));background-size:180%;animation:flow 5s ease infinite}
+.chips{display:flex;gap:10px;flex-wrap:wrap}
+.chip{font-size:12px;color:#c8d0dd;border:1px solid #2d3747;border-radius:999px;padding:9px 13px}
+.product-card{position:relative;border:1px solid #394559;border-radius:28px;padding:30px;background:linear-gradient(145deg,rgba(255,255,255,.07),rgba(255,255,255,.018));box-shadow:0 34px 90px rgba(0,0,0,.36);overflow:hidden;transform-style:preserve-3d;transition:transform .15s ease-out}
+.product-card:before{content:"";position:absolute;width:360px;height:360px;right:-160px;top:-170px;background:#8153ff;border-radius:50%;filter:blur(75px);opacity:.28}
+.product-card:after{content:"";position:absolute;width:320px;height:320px;left:-180px;bottom:-190px;background:#2bd6ed;border-radius:50%;filter:blur(75px);opacity:.23}
+.lab{position:relative;z-index:2;font-size:11px;letter-spacing:.24em;color:#c7cfda}
+.screen{position:relative;z-index:2;margin-top:25px;background:linear-gradient(145deg,#101826,#080d16);border:12px solid #202a38;outline:1px solid #344158;border-radius:18px;padding:38px;min-height:330px}
+.time{font-size:58px;font-weight:850;letter-spacing:-.04em}
+.date{font-size:12px;letter-spacing:.16em;color:#98a6ba;margin-top:5px}
+.rule{height:1px;background:#2a3545;margin:26px 0}
+.event{display:flex;gap:18px;margin:15px 0;color:#c9d1dc}.event b{color:white}
+.status{margin-top:28px;color:#48d6ed;font-size:13px}
+.quote{margin-top:28px;color:#9ba8ba;font-style:italic}
+.minirow{position:relative;z-index:2;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:20px}
+.mini{border:1px solid #344052;border-radius:15px;padding:17px;font-size:12px}.mini small{display:block;color:#7e8ba0;margin-bottom:7px}
+section{padding:112px 0;border-top:1px solid rgba(255,255,255,.06)}
+.section-head{display:grid;grid-template-columns:.7fr 1.3fr;gap:60px;margin-bottom:52px}
+.kicker{color:var(--gold);font-size:11px;letter-spacing:.25em;text-transform:uppercase;font-weight:800}
+h2{font-size:clamp(38px,4.5vw,66px);line-height:1.02;letter-spacing:-.045em;margin:15px 0}
+.copy{color:var(--muted);font-size:17px;line-height:1.75;max-width:780px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:linear-gradient(145deg,#101620,#0b1018);border:1px solid var(--line);border-radius:22px;padding:28px;min-height:235px;transition:.3s}
+.card:hover{transform:translateY(-7px);border-color:#48566b;box-shadow:0 25px 55px rgba(0,0,0,.22)}
+.num{font-size:11px;color:#718096;letter-spacing:.15em}
+.card h3{font-size:21px;margin:38px 0 12px}.card p{color:#9eabba;line-height:1.65;margin:0}
+.process{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
+.step{border-top:1px solid #394457;padding:24px 16px 10px 0}
+.step b{display:block;margin:12px 0}.step span{font-size:13px;color:#96a3b6;line-height:1.55}
+.wallgenda{display:grid;grid-template-columns:.85fr 1.15fr;gap:64px;align-items:center}
+.badge{display:inline-flex;border:1px solid #75549b;color:#d9c2fa;border-radius:999px;padding:7px 12px;font-size:11px;letter-spacing:.15em;text-transform:uppercase}
+.features{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:30px}
+.feature{border:1px solid #2d3849;border-radius:15px;padding:17px;color:#c9d2de;transition:.25s}.feature:hover{border-color:#526079;transform:translateY(-3px)}
+.scale{background:linear-gradient(115deg,rgba(255,128,95,.06),rgba(110,86,255,.06),rgba(57,189,247,.05))}
+.contact{padding-bottom:130px}
+.contact-shell{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;background:linear-gradient(145deg,#101722,#0b1018);border:1px solid #293547;border-radius:30px;padding:54px;position:relative;overflow:hidden}
+.contact-shell:after{content:"";position:absolute;width:430px;height:430px;right:-220px;bottom:-260px;border-radius:50%;background:linear-gradient(135deg,var(--pink),var(--blue));filter:blur(90px);opacity:.14}
+.contact-title{font-size:clamp(40px,4vw,62px);line-height:1;margin:16px 0 22px}
+.contact-details{display:grid;gap:16px;margin-top:34px}
+.contact-item{border-top:1px solid #2b3544;padding-top:16px}.contact-item small{display:block;color:#77869b;text-transform:uppercase;letter-spacing:.15em;margin-bottom:7px}.contact-item strong{font-size:17px}
+.contact-form{position:relative;z-index:2;display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.field{display:flex;flex-direction:column;gap:8px}.field.full{grid-column:1/-1}
+label{font-size:12px;color:#9eabba}
+input,textarea{width:100%;background:#090e16;border:1px solid #303c4e;border-radius:13px;padding:15px 16px;color:white;font:inherit;outline:none}
+input:focus,textarea:focus{border-color:#667794}
+textarea{min-height:140px;resize:vertical}
+.submit{justify-self:start;border:0;cursor:pointer}
+.form-note{grid-column:1/-1;color:#758399;font-size:12px;line-height:1.5}
+footer{border-top:1px solid rgba(255,255,255,.06);padding:34px 0 48px;color:#7f8ca0;font-size:13px}
+.footer{display:flex;justify-content:space-between;gap:20px;align-items:center}
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
 .reveal.visible{opacity:1;transform:none}
-.section h2{position:relative}
-.section h2:after{content:"";display:block;width:54px;height:2px;margin-top:20px;background:linear-gradient(90deg,#e9b877,#d36cf5,#35bdf4);transform-origin:left;transition:transform .8s ease}
-.wallgenda .product-card{animation:floatCard 6s ease-in-out infinite}
-@keyframes floatCard{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
-@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
-@media(max-width:850px){.links{display:none}.hero,.wallgenda{grid-template-columns:1fr}.hero{padding:70px 0}.hero h1{font-size:49px}.cards{grid-template-columns:1fr}.process{grid-template-columns:1fr 1fr}.section h2{font-size:38px}.footer-row{align-items:flex-start;flex-direction:column}.product-card{max-width:620px}.features{grid-template-columns:1fr}.nav{height:72px}}@media(max-width:500px){.wrap{padding:0 20px}.hero h1{font-size:42px}.lead{font-size:17px}.actions{flex-direction:column;align-items:stretch}.process{grid-template-columns:1fr}.screen{min-height:330px;padding:22px}.screen .time{font-size:44px}}
+body:before,body:after{content:"";position:fixed;pointer-events:none;z-index:-1;border-radius:50%;filter:blur(85px);opacity:.2}
+body:before{width:430px;height:430px;right:-150px;top:20%;background:#754cff;animation:orb 12s ease-in-out infinite alternate}
+body:after{width:390px;height:390px;left:-180px;bottom:4%;background:#20cfe8;animation:orb2 15s ease-in-out infinite alternate}
+@keyframes orb{to{transform:translate(-130px,110px) scale(1.15)}}
+@keyframes orb2{to{transform:translate(160px,-80px) scale(.9)}}
+@media(max-width:900px){
+ .links{display:none}.menu{display:block}.nav{height:78px}.logo{width:220px;height:62px}
+ .hero,.wallgenda,.section-head,.contact-shell{grid-template-columns:1fr}
+ .hero{padding-top:50px;gap:50px}.grid3{grid-template-columns:1fr}.process{grid-template-columns:1fr 1fr}
+ .contact-form{grid-template-columns:1fr}.field.full{grid-column:auto}
+}
+@media(max-width:560px){
+ .wrap{width:min(100% - 30px,var(--max))}h1{font-size:50px}.hero{min-height:auto;padding-bottom:72px}
+ .process,.features,.minirow{grid-template-columns:1fr}.contact-shell{padding:28px}.screen{padding:24px}.time{font-size:46px}
+}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
 </style>
 </head>
 <body>
-<header class="site-header"><div class="wrap"><nav class="nav"><a href="#top"><img class="logo" src="assets/morpixel-logo.svg" alt="MORPIXEL DESIGNLAB"/></a><div class="links"><a href="#about">About</a><a href="#build">What We Build</a><a href="#technology">Technology</a><a href="#wallgenda">WALLGENDA</a><a href="#contact">Contact</a><a class="talk" href="mailto:hello@morpixel.in">Talk to us</a></div></nav></div></header>
-<main id="top">
-<section class="wrap hero"><div><div class="eyebrow">Design × Fabrication × Intelligence</div><h1>We design products that become <span class="grad">personal.</span></h1><p class="lead">MORPIXEL DESIGNLAB combines digital design, advanced fabrication, personalization and intelligent technology to create meaningful physical products.</p><div class="actions"><a class="btn primary" href="#build">Explore what we build</a><a class="btn" href="#wallgenda">Discover WALLGENDA</a></div><div class="chips"><span class="chip">Digital Fabrication</span><span class="chip">Laser Cutting</span><span class="chip">UV Printing</span><span class="chip">AI-enabled Products</span></div></div><div class="product-card"><div class="eyebrow">MORPIXEL / PRODUCT LAB</div><div class="screen"><div class="time">08:42</div><small>MONDAY · 07 SEPTEMBER</small><div class="rule"></div><div class="agenda"><div><span>09:30</span>Architecture Review</div><div><span>11:00</span>Client Meeting</div></div><div class="status">● 3 priorities today</div><div class="quote">“Make the next thing meaningful.”</div></div><div class="mini-grid"><div class="mini">01<b>Personalized</b></div><div class="mini">02<b>Connected</b></div><div class="mini">03<b>Made to order</b></div></div></div></section>
-<section id="about" class="section reveal"><div class="wrap"><div class="kicker">Who we are</div><h2>Design for a more meaningful everyday.</h2><p class="copy">MORPIXEL is a design-led digital manufacturing company building personalized physical products and connected product experiences. We work across design, materials, fabrication, printing and software to turn ideas into tangible products for homes, workspaces, brands and special moments.</p></div></section>
-<section id="build" class="section reveal"><div class="wrap"><div class="kicker">What we build</div><h2>One design lab. Multiple product possibilities.</h2><div class="cards"><div class="card reveal"><div class="num">01</div><h3>Personalized products</h3><p>Wall décor, clocks, gifting, nameplates and made-to-order products shaped around names, photographs, artwork, colours and stories.</p></div><div class="card reveal"><div class="num">02</div><h3>Brand & business products</h3><p>Signage, branded décor, corporate gifting and custom fabricated products for businesses, events and institutional requirements.</p></div><div class="card reveal"><div class="num">03</div><h3>Smart product initiatives</h3><p>Connected physical products that combine digital fabrication with useful software and intelligent interfaces. WALLGENDA is our first concept in this direction.</p></div></div></div></section>
-<section id="technology" class="section reveal"><div class="wrap"><div class="kicker">Technology & manufacturing</div><h2>From a digital idea to a physical product.</h2><p class="copy">Our approach is built around digitally variable design and standardized production workflows, enabling low-volume customization without treating every order like a completely new manufacturing process.</p><div class="process"><div class="step reveal"><span>01</span><strong>Design</strong><p>Digital product and visual design.</p></div><div class="step reveal"><span>02</span><strong>Customize</strong><p>Names, photos, artwork, colour and layout.</p></div><div class="step reveal"><span>03</span><strong>Fabricate</strong><p>Laser cutting, engraving and component production.</p></div><div class="step reveal"><span>04</span><strong>Print</strong><p>UV and digital surface personalization.</p></div><div class="step reveal"><span>05</span><strong>Assemble</strong><p>Finishing, quality checks and fulfilment.</p></div></div></div></section>
-<section id="wallgenda" class="section reveal"><div class="wrap wallgenda"><div><span class="badge">In development</span><div class="kicker" style="margin-top:22px">MORPIXEL PRODUCT LAB</div><h2>WALLGENDA</h2><p class="copy">A customizable ambient wall organizer designed to bring calendars, tasks, reminders, notes and personal information into one persistent physical interface.</p><p class="copy" style="font-size:16px">The proposed experience combines personalized physical design with push-to-talk voice interaction and AI-assisted processing that can interpret input into structured notes, tasks, reminders or calendar actions.</p><div class="features"><div class="feature reveal">Calendar & schedule sync</div><div class="feature reveal">Tasks & reminders</div><div class="feature reveal">Voice note capture</div><div class="feature reveal">AI-assisted organization</div><div class="feature reveal">Personalized physical design</div><div class="feature reveal">Ambient information display</div></div></div><div class="product-card"><div class="screen"><div class="eyebrow">WALLGENDA / CONCEPT</div><div style="font-size:30px;font-weight:700;margin-top:24px">Good evening.</div><div class="rule"></div><div class="agenda"><div><span>Tomorrow</span>Supplier call · 11:00</div><div><span>Task</span>Send revised proposal</div><div><span>Note</span>Korean UV ink · ₹1,400</div></div><div class="status">● Press to talk</div><div class="quote">Your wall, organized around your day.</div></div></div></div></section>
-<section class="section reveal"><div class="wrap"><div class="kicker">Scalable by design</div><h2>Standardized systems. Digitally variable products.</h2><p class="copy">Reusable digital designs, modular components and repeatable production workflows allow MORPIXEL to personalize physical products while building a scalable manufacturing foundation. As the company grows, this model can create roles across design, fabrication, printing, assembly, software, quality, fulfilment, sales and customer support.</p></div></section>
-</main>
-<footer id="contact" class="footer"><div class="wrap footer-row"><div><img class="logo" src="assets/morpixel-logo.svg" alt="MORPIXEL DESIGNLAB"/><div class="legal">Ideas · Materials · Meaningful Products</div></div><div class="legal"><strong style="color:#d8dee9">MORPIXEL DESIGNLAB (OPC) PRIVATE LIMITED</strong><br/>India<br/><a href="mailto:hello@morpixel.in">hello@morpixel.in</a><br/><br/>© 2026 MORPIXEL DESIGNLAB. All rights reserved.</div></div></footer>
+<header class="site-header">
+ <div class="wrap nav">
+  <a href="#top"><img class="logo" src="assets/morpixel-logo.png" alt="MORPIXEL DESIGNLAB"></a>
+  <nav class="links">
+   <a href="#about">About</a><a href="#build">What We Build</a><a href="#technology">Technology</a>
+   <a href="#wallgenda">WALLGENDA</a><a href="#contact">Contact</a><a class="talk" href="#contact">Talk to us</a>
+  </nav>
+  <button class="menu" aria-label="Open menu">☰</button>
+ </div>
+</header>
 
+<main id="top">
+ <div class="wrap hero">
+  <div>
+   <div class="eyebrow">Design × Fabrication × Intelligence</div>
+   <h1>We design<br>products that<br>become <span class="grad">personal.</span></h1>
+   <p class="lead">MORPIXEL DESIGNLAB combines digital design, advanced fabrication, personalization and intelligent technology to create meaningful physical products.</p>
+   <div class="actions"><a class="btn primary" href="#build">Explore what we build</a><a class="btn" href="#wallgenda">Discover WALLGENDA</a></div>
+   <div class="chips"><span class="chip">Digital Fabrication</span><span class="chip">Laser Cutting</span><span class="chip">UV Printing</span><span class="chip">AI-enabled Products</span></div>
+  </div>
+  <div class="product-card hero-card">
+   <div class="lab">MORPIXEL / PRODUCT LAB</div>
+   <div class="screen"><div class="time">08:42</div><div class="date">MONDAY · 07 SEPTEMBER</div><div class="rule"></div>
+    <div class="event"><b>09:30</b><span>Architecture Review</span></div><div class="event"><b>11:00</b><span>Client Meeting</span></div>
+    <div class="status">● 3 priorities today</div><div class="quote">“Make the next thing meaningful.”</div>
+   </div>
+   <div class="minirow"><div class="mini"><small>01</small><b>Personalized</b></div><div class="mini"><small>02</small><b>Connected</b></div><div class="mini"><small>03</small><b>Made to order</b></div></div>
+  </div>
+ </div>
+
+ <section id="about"><div class="wrap reveal">
+  <div class="section-head"><div><div class="kicker">About Morpixel</div><h2>Physical products,<br>designed differently.</h2></div>
+  <p class="copy">MORPIXEL DESIGNLAB (OPC) PRIVATE LIMITED is a design-led product development and digital manufacturing company focused on personalized physical products and emerging connected-product experiences. Our approach brings design, fabrication, customization and technology into one product-development workflow.</p></div>
+ </div></section>
+
+ <section id="build"><div class="wrap reveal">
+  <div class="section-head"><div><div class="kicker">What we build</div><h2>From meaningful décor<br>to intelligent products.</h2></div>
+  <p class="copy">Our portfolio is designed to grow across consumer and business applications while retaining one principle: products should be capable of becoming personal without requiring conventional mass-production volumes.</p></div>
+  <div class="grid3">
+   <article class="card"><span class="num">01 / PERSONALIZED</span><h3>Décor & Wall Products</h3><p>Design-led wall décor, clocks, layered products and personalized physical pieces using digitally variable artwork and fabrication.</p></article>
+   <article class="card"><span class="num">02 / BUSINESS</span><h3>Gifting, Signage & Branding</h3><p>Made-to-order corporate gifts, nameplates, signage and branded products for businesses, events and institutions.</p></article>
+   <article class="card"><span class="num">03 / PRODUCT LAB</span><h3>Connected Products</h3><p>Exploration of physical products that combine customization, ambient interfaces and intelligent software — including WALLGENDA.</p></article>
+  </div>
+ </div></section>
+
+ <section id="technology"><div class="wrap reveal">
+  <div class="section-head"><div><div class="kicker">Technology & Manufacturing</div><h2>Digital by design.<br>Physical by outcome.</h2></div>
+  <p class="copy">MORPIXEL's proposed production model uses reusable digital design, laser-based fabrication, engraving, UV/digital printing, modular assembly and made-to-order workflows to support low-volume personalization efficiently.</p></div>
+  <div class="process">
+   <div class="step"><span>01</span><b>Design</b><span>Digital product and artwork development.</span></div>
+   <div class="step"><span>02</span><b>Personalize</b><span>Variable names, imagery, colours and layouts.</span></div>
+   <div class="step"><span>03</span><b>Fabricate</b><span>Laser cutting, engraving and material processing.</span></div>
+   <div class="step"><span>04</span><b>Print & Assemble</b><span>UV/digital print, finishing and modular assembly.</span></div>
+   <div class="step"><span>05</span><b>Deliver</b><span>Made-to-order fulfilment across consumer and B2B channels.</span></div>
+  </div>
+ </div></section>
+
+ <section id="wallgenda"><div class="wrap wallgenda reveal">
+  <div>
+   <span class="badge">In Development</span><div class="kicker" style="margin-top:25px">MORPIXEL PRODUCT LAB</div>
+   <h2>WALLGENDA</h2>
+   <p class="copy">A customizable ambient wall organizer concept designed to bring calendars, tasks, reminders, notes and personal information into one persistent physical interface.</p>
+   <p class="copy">The proposed experience combines personalized physical design with push-to-talk voice interaction and AI-assisted processing that can interpret input into structured notes, tasks, reminders or calendar actions.</p>
+   <div class="features"><div class="feature">Calendar & schedule sync</div><div class="feature">Tasks & reminders</div><div class="feature">Voice note capture</div><div class="feature">AI-assisted organization</div><div class="feature">Personalized physical design</div><div class="feature">Ambient information display</div></div>
+  </div>
+  <div class="product-card">
+   <div class="lab">WALLGENDA / CONCEPT</div>
+   <div class="screen"><div style="font-size:30px;font-weight:800">Good evening.</div><div class="rule"></div>
+    <div class="event"><b>Tomorrow</b><span>Supplier call · 11:00</span></div><div class="event"><b>Task</b><span>Send revised proposal</span></div><div class="event"><b>Note</b><span>Korean UV ink · ₹1,400</span></div>
+    <div class="status">● Press to talk</div><div class="quote">Your wall, organized around your day.</div>
+   </div>
+  </div>
+ </div></section>
+
+ <section class="scale"><div class="wrap reveal">
+  <div class="kicker">Scalable by design</div><h2>Standardized systems.<br>Digitally variable products.</h2>
+  <p class="copy">Reusable digital designs, modular components and repeatable production workflows allow MORPIXEL to personalize physical products while building a scalable manufacturing foundation. As the company grows, this model can create roles across design, fabrication, printing, assembly, software, quality, fulfilment, sales and customer support.</p>
+ </div></section>
+
+ <section id="contact" class="contact"><div class="wrap reveal">
+  <div class="contact-shell">
+   <div>
+    <div class="kicker">Contact MORPIXEL</div><div class="contact-title">Let's make something meaningful.</div>
+    <p class="copy">For product enquiries, collaborations, corporate requirements or conversations about what we're developing, reach out to MORPIXEL DESIGNLAB.</p>
+    <div class="contact-details">
+     <div class="contact-item"><small>Company</small><strong>MORPIXEL DESIGNLAB (OPC) PRIVATE LIMITED</strong></div>
+     <div class="contact-item"><small>Website</small><strong>morpixel.in</strong></div>
+     <div class="contact-item"><small>Email</small><strong>contact@morpixel.in</strong></div>
+     <div class="contact-item"><small>Location</small><strong>India</strong></div>
+    </div>
+   </div>
+   <form class="contact-form" action="mailto:contact@morpixel.in" method="post" enctype="text/plain">
+    <div class="field"><label>Name</label><input name="Name" placeholder="Your name" required></div>
+    <div class="field"><label>Email</label><input type="email" name="Email" placeholder="you@example.com" required></div>
+    <div class="field full"><label>Company / Organization</label><input name="Company" placeholder="Optional"></div>
+    <div class="field full"><label>How can we help?</label><textarea name="Message" placeholder="Tell us about your requirement..." required></textarea></div>
+    <button class="btn primary submit" type="submit">Start a conversation →</button>
+    <div class="form-note">This form opens your default email application. No information is stored by this website.</div>
+   </form>
+  </div>
+ </div></section>
+</main>
+
+<footer><div class="wrap footer"><span>© 2026 MORPIXEL DESIGNLAB (OPC) PRIVATE LIMITED</span><span>Design × Fabrication × Intelligence</span></div></footer>
 <script>
 const header=document.querySelector('.site-header');
-window.addEventListener('scroll',()=>header?.classList.toggle('scrolled',window.scrollY>18),{passive:true});
-
-const io=new IntersectionObserver(entries=>{
-  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target)}})
-},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
-document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
-
-const card=document.querySelector('.hero .product-card');
-if(card && matchMedia('(pointer:fine)').matches){
-  card.addEventListener('mousemove',e=>{
-    const r=card.getBoundingClientRect();
-    const x=(e.clientX-r.left)/r.width-.5, y=(e.clientY-r.top)/r.height-.5;
-    card.style.transform=`perspective(900px) rotateX(${(-y*4).toFixed(2)}deg) rotateY(${(x*5).toFixed(2)}deg) translateY(-4px)`;
-  });
-  card.addEventListener('mouseleave',()=>card.style.transform='');
+addEventListener('scroll',()=>header.classList.toggle('scrolled',scrollY>20),{passive:true});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(x=>io.observe(x));
+const card=document.querySelector('.hero-card');
+if(card&&matchMedia('(pointer:fine)').matches){
+ card.addEventListener('mousemove',e=>{const r=card.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;card.style.transform=`perspective(900px) rotateX(${-y*4}deg) rotateY(${x*5}deg) translateY(-4px)`});
+ card.addEventListener('mouseleave',()=>card.style.transform='');
 }
+const menu=document.querySelector('.menu'),links=document.querySelector('.links');
+menu.addEventListener('click',()=>{links.style.display=links.style.display==='flex'?'none':'flex';if(links.style.display==='flex'){Object.assign(links.style,{position:'absolute',top:'78px',left:'0',right:'0',padding:'24px',background:'#090d14',flexDirection:'column',alignItems:'flex-start',borderBottom:'1px solid #273142'})}});
 </script>
 </body></html>

@@ -1,22 +1,14 @@
-# MORPIXEL website
+# MORPIXEL DESIGNLAB Website
 
-Static GitHub Pages site for `morpixel.in`.
+Static GitHub Pages website for morpixel.in.
 
-## Deploy
-1. Upload the contents of this folder to the root of the GitHub repository.
-2. GitHub Settings → Pages → Deploy from branch → `main` → `/ (root)`.
-3. Keep custom domain set to `morpixel.in`.
+## Files
+- index.html
+- assets/morpixel-logo.png — used exactly as supplied/selected
+- CNAME — morpixel.in
+- .nojekyll
 
-## Brand notes
-- Peacock appears only in the MORPIXEL logo / favicon.
-- Current smart product working name: **WALLGENDA**.
-- WALLGENDA is presented as **In Development**.
-
-
-## Latest refinements
-- Upright, elegant standalone peacock line-art logo
-- Peacock appears only inside the MORPIXEL brand mark
-- Sticky glass-effect navigation header while scrolling
-
-- Restored motion: animated ambient gradients, scroll reveals, hover lift, animated CTA, hero card tilt, sticky glass header
-- Peacock remains exclusively inside the MORPIXEL logo
+## Contact
+The dedicated Contact section currently uses `contact@morpixel.in`.
+The form uses `mailto:` and therefore requires no backend.
+Change the email in `index.html` if a different official address is preferred.
