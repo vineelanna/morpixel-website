@@ -99,6 +99,20 @@ body:before{width:430px;height:430px;right:-150px;top:20%;background:#754cff;ani
 body:after{width:390px;height:390px;left:-180px;bottom:4%;background:#20cfe8;animation:orb2 15s ease-in-out infinite alternate}
 @keyframes orb{to{transform:translate(-130px,110px) scale(1.15)}}
 @keyframes orb2{to{transform:translate(160px,-80px) scale(.9)}}
+
+.main-footer{border-top:1px solid rgba(255,255,255,.07);padding:64px 0 28px;background:linear-gradient(180deg,rgba(10,14,21,.35),rgba(5,8,13,.96));color:#8e9caf}
+.footer-grid{display:grid;grid-template-columns:1.45fr .65fr .8fr 1.25fr;gap:48px;align-items:start}
+.footer-brand img{width:245px;height:72px;object-fit:contain;object-position:left center;margin-bottom:20px}
+.footer-brand p{max-width:370px;line-height:1.65;margin:0 0 18px;color:#8e9caf}
+.footer-tag{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#d3b37d}
+.footer-col{display:flex;flex-direction:column;gap:11px}
+.footer-col h4{margin:7px 0 10px;color:#f2f4f8;font-size:12px;text-transform:uppercase;letter-spacing:.16em}
+.footer-col a{color:#8e9caf;transition:.2s}.footer-col a:hover{color:#fff;transform:translateX(2px)}
+.footer-address address{font-style:normal;line-height:1.7;color:#9ba8ba}
+.footer-bottom{display:flex;justify-content:space-between;gap:24px;margin-top:48px;padding-top:22px;border-top:1px solid rgba(255,255,255,.06);font-size:12px;color:#66758a}
+@media(max-width:900px){.footer-grid{grid-template-columns:1fr 1fr}.footer-brand{grid-column:1/-1}}
+@media(max-width:560px){.footer-grid{grid-template-columns:1fr}.footer-brand{grid-column:auto}.footer-bottom{flex-direction:column}.footer-brand img{width:220px}}
+
 @media(max-width:900px){
  .links{display:none}.menu{display:block}.nav{height:78px}.logo{width:220px;height:62px}
  .hero,.wallgenda,.section-head,.contact-shell{grid-template-columns:1fr}
@@ -201,7 +215,7 @@ body:after{width:390px;height:390px;left:-180px;bottom:4%;background:#20cfe8;ani
      <div class="contact-item"><small>Company</small><strong>MORPIXEL DESIGNLAB (OPC) PRIVATE LIMITED</strong></div>
      <div class="contact-item"><small>Website</small><strong>morpixel.in</strong></div>
      <div class="contact-item"><small>Email</small><strong>contact@morpixel.in</strong></div>
-     <div class="contact-item"><small>Location</small><strong>India</strong></div>
+     <div class="contact-item"><small>Registered Office</small><strong>H.No. 5-497, Near Hi-Tech City, Izzathnagar, Khanamet, Kondapur, Serilingampally, K.V. Rangareddy - 500084, Telangana, India</strong></div>
     </div>
    </div>
    <form class="contact-form" action="mailto:contact@morpixel.in" method="post" enctype="text/plain">
@@ -216,7 +230,37 @@ body:after{width:390px;height:390px;left:-180px;bottom:4%;background:#20cfe8;ani
  </div></section>
 </main>
 
-<footer><div class="wrap footer"><span>© 2026 MORPIXEL DESIGNLAB (OPC) PRIVATE LIMITED</span><span>Design × Fabrication × Intelligence</span></div></footer>
+<footer class="main-footer">
+<div class="wrap footer-grid">
+  <div class="footer-brand">
+    <img src="assets/morpixel-logo.png" alt="MORPIXEL DESIGNLAB">
+    <p>Design-led digital manufacturing for personalized physical products and emerging intelligent product experiences.</p>
+    <span class="footer-tag">Design × Fabrication × Intelligence</span>
+  </div>
+  <div class="footer-col">
+    <h4>Explore</h4>
+    <a href="#about">About</a>
+    <a href="#build">What We Build</a>
+    <a href="#technology">Technology</a>
+    <a href="#wallgenda">WALLGENDA</a>
+  </div>
+  <div class="footer-col">
+    <h4>Connect</h4>
+    <a href="mailto:contact@morpixel.in">contact@morpixel.in</a>
+    <a href="#contact">Product Enquiries</a>
+    <a href="#contact">Collaborations</a>
+    <a href="#contact">Corporate Requirements</a>
+  </div>
+  <div class="footer-col footer-address">
+    <h4>Registered Office</h4>
+    <address>H.No. 5-497, Near Hi-Tech City, Izzathnagar, Khanamet, Kondapur, Serilingampally, K.V. Rangareddy - 500084, Telangana, India</address>
+  </div>
+</div>
+<div class="wrap footer-bottom">
+  <span>© 2026 MORPIXEL DESIGNLAB (OPC) PRIVATE LIMITED. All rights reserved.</span>
+  <span>morpixel.in</span>
+</div>
+</footer>
 <script>
 const header=document.querySelector('.site-header');
 addEventListener('scroll',()=>header.classList.toggle('scrolled',scrollY>20),{passive:true});
