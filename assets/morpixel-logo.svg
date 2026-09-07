@@ -1,52 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 170" role="img" aria-label="MORPIXEL Designlab">
-  <defs>
-    <linearGradient id="peacockGold" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#f6d4a5"/>
-      <stop offset="0.45" stop-color="#e5b879"/>
-      <stop offset="1" stop-color="#b98259"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 180" role="img" aria-label="MORPIXEL Designlab">
+<defs>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#ffe0ad"/>
+    <stop offset=".42" stop-color="#e9b877"/>
+    <stop offset="1" stop-color="#a96d47"/>
+  </linearGradient>
+</defs>
 
-  <!-- Standalone elegant peacock line-art mark -->
-  <g transform="translate(14,5)" fill="none" stroke="url(#peacockGold)"
-     stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round">
-    <!-- alert, upright neck and head -->
-    <path d="M92 31
-             C73 39,66 57,72 74
-             C77 89,91 94,94 111
-             C97 128,88 142,73 151"/>
-    <path d="M92 31
-             C108 37,116 49,116 63
-             C116 77,107 87,95 93"/>
-    <!-- face + beak -->
-    <path d="M90 32 C96 25,105 23,113 27"/>
-    <path d="M113 27 L126 32 L113 36"/>
-    <circle cx="102" cy="30" r="2.4" fill="#f0c791" stroke="none"/>
+<!-- elegant standalone peacock -->
+<g transform="translate(14,7)" fill="none" stroke="url(#gold)" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- long elegant S-neck -->
+  <path d="M105 30
+           C84 33 73 47 77 65
+           C81 84 101 88 101 108
+           C101 128 88 143 71 154"/>
+  <!-- outer chest -->
+  <path d="M105 30
+           C123 34 133 48 131 63
+           C129 77 119 87 106 92"/>
+  <!-- head + beak -->
+  <path d="M103 30 C108 22 117 19 126 22"/>
+  <path d="M126 22 L142 29 L126 34"/>
+  <circle cx="116" cy="26" r="2.6" fill="#edc58c" stroke="none"/>
 
-    <!-- crown -->
-    <path d="M93 22 C89 15,90 9,95 4"/>
-    <path d="M101 21 C101 13,105 8,110 5"/>
-    <path d="M108 23 C112 16,117 13,123 14"/>
-    <circle cx="95" cy="4" r="2.8" fill="#f0c791" stroke="none"/>
-    <circle cx="110" cy="5" r="2.8" fill="#f0c791" stroke="none"/>
-    <circle cx="123" cy="14" r="2.8" fill="#f0c791" stroke="none"/>
+  <!-- crest -->
+  <path d="M106 20 C103 13 104 8 109 3"/>
+  <path d="M115 20 C116 12 120 7 125 4"/>
+  <path d="M123 21 C128 14 133 11 139 12"/>
+  <circle cx="109" cy="3" r="3" fill="#edc58c" stroke="none"/>
+  <circle cx="125" cy="4" r="3" fill="#edc58c" stroke="none"/>
+  <circle cx="139" cy="12" r="3" fill="#edc58c" stroke="none"/>
 
-    <!-- lifted chest / body -->
-    <path d="M95 92 C83 104,78 117,80 132"/>
-    <path d="M94 111 C104 123,106 136,101 149"/>
+  <!-- lively open fan -->
+  <path d="M83 102 C62 82 37 78 14 91 C37 94 58 107 73 128"/>
+  <path d="M82 108 C57 94 34 96 15 110 C39 108 59 119 72 139"/>
+  <path d="M80 116 C58 108 39 114 24 130 C46 123 61 131 70 148"/>
+  <path d="M80 124 C64 123 51 132 43 147"/>
 
-    <!-- elegant upward fan: flowing feather lines -->
-    <path d="M78 106 C58 96,38 99,19 116 C42 116,60 126,72 142"/>
-    <path d="M76 111 C55 109,39 116,26 132"/>
-    <path d="M76 118 C58 121,46 132,39 146"/>
-    <path d="M79 124 C65 132,57 142,53 153"/>
-  </g>
+  <!-- small body sweep -->
+  <path d="M102 106 C111 119 111 137 102 151"/>
+</g>
 
-  <!-- Wordmark -->
-  <g fill="#f7f8fb">
-    <text x="170" y="80" font-family="Inter,Arial,sans-serif"
-          font-size="62" font-weight="750" letter-spacing="6.5">MORPIXEL</text>
-    <text x="175" y="126" font-family="Inter,Arial,sans-serif"
-          font-size="23" font-weight="450" letter-spacing="13.5">DESIGNLAB</text>
-  </g>
+<g fill="#f7f8fb">
+  <text x="184" y="84" font-family="Inter,Arial,sans-serif" font-size="64" font-weight="760" letter-spacing="6.8">MORPIXEL</text>
+  <text x="190" y="133" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="500" letter-spacing="14">DESIGNLAB</text>
+</g>
 </svg>

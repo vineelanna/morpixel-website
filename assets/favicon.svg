@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 160">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 170">
 <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-<stop offset="0" stop-color="#f6d4a5"/><stop offset=".55" stop-color="#e5b879"/><stop offset="1" stop-color="#b98259"/>
-</linearGradient></defs>
-<g transform="translate(8,3)" fill="none" stroke="url(#g)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
-<path d="M92 31C73 39 66 57 72 74C77 89 91 94 94 111C97 128 88 142 73 151"/>
-<path d="M92 31C108 37 116 49 116 63C116 77 107 87 95 93"/>
-<path d="M90 32C96 25 105 23 113 27"/><path d="M113 27L126 32L113 36"/>
-<circle cx="102" cy="30" r="3" fill="#f0c791" stroke="none"/>
-<path d="M93 22C89 15 90 9 95 4"/><path d="M101 21C101 13 105 8 110 5"/><path d="M108 23C112 16 117 13 123 14"/>
-<circle cx="95" cy="4" r="3.5" fill="#f0c791" stroke="none"/><circle cx="110" cy="5" r="3.5" fill="#f0c791" stroke="none"/><circle cx="123" cy="14" r="3.5" fill="#f0c791" stroke="none"/>
-<path d="M78 106C58 96 38 99 19 116C42 116 60 126 72 142"/>
-<path d="M76 111C55 109 39 116 26 132"/><path d="M76 118C58 121 46 132 39 146"/>
+<stop offset="0" stop-color="#ffe0ad"/><stop offset=".45" stop-color="#e9b877"/><stop offset="1" stop-color="#a96d47"/></linearGradient></defs>
+<g transform="translate(4,5)" fill="none" stroke="url(#g)" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M105 30C84 33 73 47 77 65C81 84 101 88 101 108C101 128 88 143 71 154"/>
+<path d="M105 30C123 34 133 48 131 63C129 77 119 87 106 92"/>
+<path d="M103 30C108 22 117 19 126 22"/><path d="M126 22L142 29L126 34"/>
+<circle cx="116" cy="26" r="3" fill="#edc58c" stroke="none"/>
+<path d="M106 20C103 13 104 8 109 3"/><path d="M115 20C116 12 120 7 125 4"/><path d="M123 21C128 14 133 11 139 12"/>
+<circle cx="109" cy="3" r="3.4" fill="#edc58c" stroke="none"/><circle cx="125" cy="4" r="3.4" fill="#edc58c" stroke="none"/><circle cx="139" cy="12" r="3.4" fill="#edc58c" stroke="none"/>
+<path d="M83 102C62 82 37 78 14 91C37 94 58 107 73 128"/>
+<path d="M82 108C57 94 34 96 15 110C39 108 59 119 72 139"/>
+<path d="M80 116C58 108 39 114 24 130C46 123 61 131 70 148"/>
 </g></svg>

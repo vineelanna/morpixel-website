@@ -17,3 +17,6 @@ Static GitHub Pages site for `morpixel.in`.
 - Upright, elegant standalone peacock line-art logo
 - Peacock appears only inside the MORPIXEL brand mark
 - Sticky glass-effect navigation header while scrolling
+
+- Restored motion: animated ambient gradients, scroll reveals, hover lift, animated CTA, hero card tilt, sticky glass header
+- Peacock remains exclusively inside the MORPIXEL logo
